@@ -1,0 +1,32 @@
+:root{
+   /* colors */
+    --primary-text-color: #212121;
+    --accent-text-color: #2196f3;
+    --secondary-text-color: #757575;
+    --background-grey-color: #2f303a;
+    --background-white-color: #fff;
+    --background-light-grey-color: #f5f4fA;
+    --accent-button-color: #2196f3;
+    --primary-button-color: #757575;
+    --address-color: #fff;
+    --hero-title-color: #fff;
+    --accent-button-text-color: #fff;
+    
+    /* text weight */
+    --header-text-weight: 500;
+    --footer-text-weight: 400;
+    --description-text-weight: 400;
+    --logo-text-weight: 700;
+    --hero-title-weight: 900;
+    --hero-button-text-weight: 700;
+    --secondary-title-weight: 700;
+}
+/* Body style */
+.body {
+    background-color:  var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+}
