@@ -46,33 +46,16 @@
   |============================
 */
 
-*,
-*::after,
-::before {
-  padding: 0;
-  margin: 0;
-}
-
 body {
   font-family: var(--primary-font);
   letter-spacing: 0.02em;
-  color: var(--Navy-blue);
+  color: var(--Slate);
   background-color: var(--White);
 }
 
 /*
 |===|Reset>>>|===|
 */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
 
 .link {
   text-decoration: none;
@@ -81,13 +64,6 @@ p {
 
 .list {
   list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 /*
@@ -109,14 +85,12 @@ img {
 */
 
 .hero-title {
-  width: 496px;
   font-family: var(--primary-font);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   color: var(--White);
-  margin: 0 auto;
 }
 
 .title {
@@ -126,7 +100,6 @@ img {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-  margin-bottom: 72px;
 }
 
 .subtitle {
@@ -147,16 +120,11 @@ img {
 }
 
 .visually-hidden {
-  position: absolute;
+  visibility: hidden;
   white-space: nowrap;
-  width: 1px;
-  height: 1px;
   overflow: hidden;
-  border: 0;
-  padding: 0;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  margin: -1px;
 }
 
 /*
@@ -164,15 +132,6 @@ img {
   | Header styles
   |============================
 */
-header {
-  border-bottom: 1px solid var(--Cornflower);
-}
-
-header .container {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid var(--Cornflower);
-}
 
 /*
   |============================
@@ -217,9 +176,6 @@ header .container {
   letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--White);
-  padding: 16px 32px;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /*
@@ -227,10 +183,6 @@ header .container {
   | Benefits styles
   |============================
 */
-
-.benefits-invisible-title {
-  visibility: hidden;
-}
 
 /*
   |============================
@@ -249,7 +201,6 @@ header .container {
 */
 
 .portfolio-list-item{
-  border: 1px solid var(--Cornflower);
   background: var(--White);
 }
 
@@ -261,6 +212,10 @@ header .container {
 
 .footer {
   background-color: var(--Navy-blue)
+}
+
+.footer.logo {
+ font-weight: 700;
 }
 
 .logo-white {
