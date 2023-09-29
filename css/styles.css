@@ -45,7 +45,6 @@
   | Basic styles
   |============================
 */
-
 body {
   font-family: var(--primary-font);
   letter-spacing: 0.02em;
@@ -56,7 +55,6 @@ body {
 /*
 |===|Reset>>>|===|
 */
-
 .link {
   text-decoration: none;
   color: currentColor;
@@ -69,7 +67,6 @@ body {
 /*
 |===|Reset<<<|===|
 */
-
 .logo {
   color: var(--Iris);
   font-family: var(--secondary-font);
@@ -81,64 +78,13 @@ body {
 }
 
 /*
-  |===|Title styles|===|
-*/
-
-.hero-title {
-  font-family: var(--primary-font);
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  color: var(--White);
-}
-
-.title {
-  font-family: var(--primary-font);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.subtitle {
-  font-family: var(--primary-font);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-}
-
-.text {
-  line-height: 1.5;
-  color: var(--Slate);
-}
-
-.medium-text {
-  font-weight: 500;
-  line-height: 1.5;
-}
-
-.visually-hidden {
-  visibility: hidden;
-  white-space: nowrap;
-  overflow: hidden;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-}
-
-/*
   |============================
   | Header styles
   |============================
 */
-
 /*
-  |============================
-  | Navigation menu style
-  |============================
+  |===|Nav menu style|===|
 */
-
 .logo-black {
   color: var(--Navy-blue);
 }
@@ -149,27 +95,32 @@ body {
 }
 
 /*
-  |============================
-  |  Header contacts style
-  |============================
+  |===|Header contacts style|===|
 */
-
 .adress-item {
   font-style: normal;
   line-height: 1.5;
   color: var(--Slate);
 }
+
 /*
   |============================
-  | Hero styles
+  | Hero styles +
   |============================
 */
-
 .hero {
   background-color: var(--Navy-blue);
 }
 
-.hero-button {
+.hero-title {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--White);
+}
+
+.hero-btn {
   background-color: var(--Iris);
   font-weight: 500;
   line-height: 1.5;
@@ -183,15 +134,63 @@ body {
   | Benefits styles
   |============================
 */
+.benefits {}
+
+.visually-hidden {
+  visibility: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+}
+
+.benefits-list {}
+
+.benefits-list-item {}
+
+.benefits-subtitle {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.benefits-text {}
 
 /*
   |============================
   | Our Team styles
   |============================
 */
-
-.team.section {
+.team{
   background-color: var(--Cloud);
+}
+
+.team-title {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+
+.team-list {}
+
+.team-list-item {
+  background-color: var(--White);
+}
+
+.team-img {}
+
+.team-subtitle {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--Navy-blue);
+}
+.team-text {
+  line-height: 1.5;
 }
 
 /*
@@ -199,9 +198,34 @@ body {
   |  Portfolio style
   |============================
 */
+.portfolio {}
 
-.portfolio-list-item{
+.porfolio-title {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+
+.portfolio-list {}
+
+.portfolio-list-item {
   background: var(--White);
+}
+
+.porfolio-img {}
+
+.portfolio-subtitle {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--Navy-blue);
+}
+
+.porfolio-text {
+  line-height: 1.5;
 }
 
 /*
@@ -214,14 +238,12 @@ body {
   background-color: var(--Navy-blue)
 }
 
-.footer.logo {
- font-weight: 700;
-}
-
 .logo-white {
-  color: var(--Cloud)
+
+  color: var(--Cloud);
 }
 
-.footer.text {
+.footer-text {
+  line-height: 1.5;
   color: var(--Cloud);
 }
